@@ -8,19 +8,19 @@ type: docs
 
 * A [internal link](../development_guide) to the development guide  
   ✅
-* B [internal link](../development_guide.md) to the development guide 
+* B [internal link](../development_guide.md) to the development guide  
   ❌
-* C [internal link](development_guide.md) to the development guide
+* C [internal link](development_guide.md) to the development guide  
   ❌
-* D [internal link](../patterns/ingress/) to ingress guide (in another directory)
+* D [internal link](../patterns/ingress/) to ingress guide (in another directory)  
   ❌
-* E [internal link]({{< ref "development_guide.md" >}} "development guide") to the development guide
+* E [internal link]({{< ref "development_guide.md" >}} "development guide") to the development guide  
   ✅
-* F [internal link]({{< ref "development_guide" >}} "development guide") to the development guide 
+* F [internal link]({{< ref "development_guide" >}} "development guide") to the development guide  
   ✅
-* G [internal link]({{< ref "ingress" >}} "development guide") to ingress (in another directory)
+* G [internal link]({{< ref "ingress" >}} "development guide") to ingress (in another directory)  
   ✅
-* H [internal link]({{< ref "ingress.md" >}} "development guide") to ingress (in another directory) 
+* H [internal link]({{< ref "ingress.md" >}} "development guide") to ingress (in another directory)  
   ✅
 
 # External Link Testing 
