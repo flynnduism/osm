@@ -7,21 +7,21 @@ type: docs
 # Internal Link Testing 
 
 * A [internal link](../development_guide) to the development guide  
-  ✅
+  🌐✅ :octocat:❌  
 * B [internal link](../development_guide.md) to the development guide  
-  ❌
+  🌐❌ :octocat:❌  
 * C [internal link](development_guide.md) to the development guide  
-  ❌
+  🌐❌ :octocat:✅  
 * D [internal link](../patterns/ingress/) to ingress guide (in another directory)  
-  ❌
+  🌐❌ :octocat:❌  
 * E [internal link]({{< ref "development_guide.md" >}} "development guide") to the development guide  
-  ✅
+  🌐✅ :octocat:❌  
 * F [internal link]({{< ref "development_guide" >}} "development guide") to the development guide  
-  ✅
+  🌐✅ :octocat:❌  
 * G [internal link]({{< ref "ingress" >}} "development guide") to ingress (in another directory)  
-  ✅
+  🌐✅ :octocat:❌  
 * H [internal link]({{< ref "ingress.md" >}} "development guide") to ingress (in another directory)  
-  ✅
+  🌐✅ :octocat:❌  
 
 # External Link Testing 
 * G [external link](https://gohugo.io/content-management/cross-references/) to the hugo docs
