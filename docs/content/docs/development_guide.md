@@ -2,6 +2,7 @@
 title: "Development Guide"
 description: "Open Service Mesh Development Guide"
 type: docs
+alias: ["development_guide.md"]
 ---
 
 # Open Service Mesh Development Guide
