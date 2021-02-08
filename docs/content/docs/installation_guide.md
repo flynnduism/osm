@@ -4,12 +4,30 @@ description: "Installation Guide"
 type: docs
 ---
 
-# Installation Guide
+# Internal Link Testing 
 
-This guide describes how to install Open Service Mesh (OSM) on a Kubernetes cluster using the `osm` CLI.
+* A [internal link](../development_guide) to the development guide  
+  ✅
+* B [internal link](../development_guide.md) to the development guide 
+  ❌
+* C [internal link](development_guide.md) to the development guide
+  ❌
+* D [internal link](../patterns/ingress/) to ingress guide (in another directory)
+  ❌
+* E [internal link]({{< ref "development_guide.md" >}} "development guide") to the development guide
+  ✅
+* F [internal link]({{< ref "development_guide" >}} "development guide") to the development guide 
+  ✅
+* G [internal link]({{< ref "ingress" >}} "development guide") to ingress (in another directory)
+  ✅
+* H [internal link]({{< ref "ingress.md" >}} "development guide") to ingress (in another directory) 
+  ✅
 
-## Prerequisites
-- Kubernetes cluster running Kubernetes v1.15.0 or greater
+# External Link Testing 
+* G [external link](https://gohugo.io/content-management/cross-references/) to the hugo docs
+* H [external link](https://github.com/openservicemesh/osm/blob/main/go.mod) to the `go.mod` file
+
+---
 
 ## Set up the OSM CLI
 
